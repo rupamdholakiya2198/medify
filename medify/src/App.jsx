@@ -4,10 +4,10 @@ import Home from "./pages/Home";
 import SearchResult from "./pages/SearchResult/SearchResults";
 import MyBookings from "./pages/Bookings/MyBookings";
 import { AppContext } from "./Context/AppContext";
-import Vission from './components/Vission/Vission'
-import Navbar from './components/Navbar/Navbar';
+import Vission from './components/Vission/Vission';
 import Access from "./components/Accessibility/Access";
 import Footer from "./components/Footer/Footer";
+import Navbar from './components/Navbar/Navbar';
 
 function App() {
      const [states,setStates] = useState([]);
